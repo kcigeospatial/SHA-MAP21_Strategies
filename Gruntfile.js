@@ -382,7 +382,7 @@
 			connect: {
 				server: {
 					options: {
-						port: 8080,
+						port: 8082,
 						keepalive: true,
 						hostname: '*'
 					}
