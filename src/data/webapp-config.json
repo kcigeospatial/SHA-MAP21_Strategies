@@ -6,7 +6,7 @@
     "owner": "KCI_Geosolutions",
     "orgId": "51VTafzU9uSHetfn",
     "uploaded": 1436453545000,
-    "modified": 1436454319000,
+    "modified": 1437417338000,
     "guid": null,
     "name": null,
     "title": "State Strategies\n",
@@ -53,7 +53,7 @@
     "numComments": 0,
     "numRatings": 0,
     "avgRating": 0,
-    "numViews": 99
+    "numViews": 117
   },
   "itemData": {
     "values": {
@@ -108,18 +108,19 @@
         "storage": "WEBAPP",
         "sections": [
           {
-            "title": "<p style=\"outline: none;\"><strong><span style=\"font-size:36px\">State Strategies</span></strong></p>\n",
+            "title": "<p><strong><span style=\"font-size:36px\">State Strategies</span></strong></p>\n",
             "content": "<p>Lorem ipsum dolor sit amet, ad autem recusabo conceptam mei, his in agam scaevola recteque. Prompta percipit an eos, eam dicat molestiae eu. Efficiendi cotidieque qui id, ne facete audire vix. Est at munere argumentum. Assueverit mediocritatem eos ei. Est utinam splendide quaerendum id, in sea aperiam philosophia, ne natum molestiae vis.</p>\n\n<p>Vis dicam mollis in, vel aeque quaestio ei. Saperet eligendi interesset an eum. Et case integre ancillae sea. Vix ne velit tractatos elaboraret, in vim voluptua menandri recusabo. Et posse ponderum usu, pro ea suas malis voluptaria, usu id quod partem audire. Ad sea graeco equidem corrumpit.</p>\n\n<p>Mea etiam doctus nusquam ea. Vix ut omnesque inimicus. Ad maluisset consetetur pro, sea augue tibique recteque et. Usu ei nullam vivendum. Habeo ubique efficiantur et eam, eu sit debet prompta percipitur. Numquam invidunt recusabo in pri.</p>\n\n<p>Ex pri noster mentitum, vis id sapientem torquatos, in vix inani accusata aliquando. Liber sanctus democritum qui an. Docendi tacimates expetenda per te. Te ius quem nibh urbanitas, per ad prima molestie gubergren, eam expetenda repudiare eu.</p>\n\n<p>Ad eum delectus salutatus. Agam harum altera duo at, detracto imperdiet maiestatis eam in. Euripidis vulputate abhorreant id eum, eos ex esse oporteat insolens. Sed graece nostrum deserunt no, at suscipit verterem vis. Vel cu erant habemus assentior, nisl graece accommodare eum ad.</p>\n",
             "contentActions": [],
-            "creaDate": 1436453461095,
-            "pubDate": 1436453461095,
+            "creaDate": 1437417332947,
+            "pubDate": 1437417332947,
             "status": "PUBLISHED",
             "media": {
-              "type": "image",
-              "image": {
-                "url": "http://stormwater.kci.com/map21_progress/images/traffic.jpg",
-                "type": "image",
-                "display": "fill"
+              "type": "webpage",
+              "webpage": {
+                "url": "static/safety/index.html",
+                "type": "webpage",
+                "display": "stretch",
+                "unload": true
               }
             }
           },

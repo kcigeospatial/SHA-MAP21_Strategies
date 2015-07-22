@@ -405,33 +405,34 @@ define(["lib-build/css!lib-app/bootstrap/css/bootstrap.min",
 			});
 
 
-			//arcgisUtils.getItem(appId).then(
+			//arcgisUtils.getItem('eb988adede6445d8bc84d4d07fb8d2ce').then(
 			//	function(response)
 			//	{
 			//		if ( ! response ) {
 			//			initError("appLoadingFail");
 			//			return;
 			//		}
-			//
+			//		debugger;
+            //
 			//		var itemRq = response.item,
 			//			dataRq = response.itemData;
-			//
+            //
 			//		app.data.setWebAppItem(itemRq);
 			//		app.data.getWebAppData().set(dataRq);
-			//
+            //
 			//		if( app.indexCfg.authorizedOwners && app.indexCfg.authorizedOwners.length > 0 && app.indexCfg.authorizedOwners[0] ) {
 			//			var owner = itemRq.owner,
 			//				ownerFound = false;
-			//
+            //
 			//			if( owner )
 			//				ownerFound = $.inArray(owner, app.indexCfg.authorizedOwners) != -1;
-			//
+            //
 			//			if ( ! ownerFound ) {
 			//				initError("invalidConfigOwner");
 			//				return;
 			//			}
 			//		}
-			//
+            //
 			//		// App proxies
 			//		if (itemRq && itemRq.appProxies) {
 			//			var layerMixins = array.map(itemRq.appProxies, function (p) {
@@ -444,7 +445,7 @@ define(["lib-build/css!lib-app/bootstrap/css/bootstrap.min",
 			//			});
 			//			app.data.setAppProxies(layerMixins);
 			//		}
-			//
+            //
 			//		// If in builder, check that user is app owner or org admin
 			//		if (app.isInBuilder && isProd() && !app.data.userIsAppOwner()) {
 			//			initError("notAuthorized");
@@ -452,10 +453,10 @@ define(["lib-build/css!lib-app/bootstrap/css/bootstrap.min",
 			//		}
             //
 			//		_mainView.webAppConfigLoaded();
-			//
+            //
 			//		var useWebmapInApp = !! (app.appCfg ? app.appCfg.useWebmapInApp : true);
 			//		var webmapId = app.data.getWebAppData().getWebmap() || CommonHelper.getWebmapID(isProd());
-			//
+            //
 			//		if (webmapId && useWebmapInApp)
 			//			loadWebMap(webmapId);
 			//		else if ( ! useWebmapInApp ) {
