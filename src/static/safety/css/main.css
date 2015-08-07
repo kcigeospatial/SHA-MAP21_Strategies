@@ -24,7 +24,7 @@ body {
     margin-bottom: 20px;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
     overflow-y: hidden;
 }
 
@@ -40,9 +40,41 @@ hr {
     margin-top: 10px;
 }
 
-.timeline-container{
+.container-centered{
     text-align: center;
 }
+
 .twitter-timeline{
     margin: 0 auto;
+}
+
+.fb-page{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.text-centered{
+    text-align: center;
+}
+
+.video{
+    margin: 0 auto;
+    width: 600px;
+}
+
+@media only screen and (max-width: 770px) {
+    body {
+        margin-bottom: 150px;
+    }
+    .video{
+        width: 400px;
+        height: 245px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .video{
+        width: 270px;
+        height: 165px;
+    }
 }

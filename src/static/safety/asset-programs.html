@@ -21,6 +21,15 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+
+    <script type="text/javascript" src="js/projecthome.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/downloadxml.js"></script>
+    <script type="text/javascript" src="js/projecthomemap.js"></script>
+
+
 </head>
 <body>
     <div class="title container">
@@ -38,6 +47,15 @@
     </div>
 
     <div class="main container">
+        <div id="map_canvas" style="width: 820px; height: 450px;border:1px solid black;"></div>
+        <div id="projcounts" style="width:100%;text-align:center;"></div>
     </div>
 </body>
+
+
+<script>
+    //initialize();
+    window.onload=initialize;
+</script>
+
 </html>

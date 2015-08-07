@@ -40,6 +40,25 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    $( window ).resize(function() {
+        var container_width = $('.facebook-container').width();
+        $('.facebook-container').html('<div class="fb-page" data-href="https://www.facebook.com/MarylandStateHighwayAdministration" data-width="' + container_width + '" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MarylandStateHighwayAdministration"><a href="https://www.facebook.com/MarylandStateHighwayAdministration">Maryland State Highway Administration</a></blockquote></div></div>');
+        FB.XFBML.parse();
+    });
+
+
+    </script>
+
     <div class="title container">
         <div class="row">
             <div class="col-md-12 title-top">
@@ -55,14 +74,61 @@
     </div>
 
     <div class="main container">
+
         <div class="row">
-            <div class="col-md-12 timeline-container">
+            <div class="col-md-12">
+                <h3 class="text-centered">Social Media Outreach</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6 timeline-container container-centered">
                 <a class="twitter-timeline"
                    data-widget-id="600720083413962752"
                    href="https://twitter.com/MDSHA"
-                   data-screen-name="MDSHA">
+                   data-screen-name="MDSHA"
+                   height="400"
+                   width="500">
                     Tweets by @MDSHA
                 </a>
+            </div>
+            <div class="col-sm-12 col-md-6 facebook-container container-centered">
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/MarylandStateHighwayAdministration"
+                     data-width="500"
+                     data-height="400"
+                     data-small-header="true"
+                     data-adapt-container-width="true"
+                     data-hide-cover="false"
+                     data-show-facepile="false"
+                     data-show-posts="true">
+                    <div class="fb-xfbml-parse-ignore">
+                        <blockquote cite="https://www.facebook.com/MarylandStateHighwayAdministration">
+                            <a href="https://www.facebook.com/MarylandStateHighwayAdministration">Maryland State Highway Administration</a>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-centered">Walk, Drive and Bike Smart in Ocean City</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 video-container container-centered">
+
+                <iframe id="ytplayer" class="video" type="text/html" height="390"
+                        src="http://www.youtube.com/embed/qwlCuDbZ9sg"
+                        frameborder="0"/>
+
+                <!--<video class="video" controls>-->
+                    <!--<source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">-->
+                    <!--<source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">-->
+                    <!--Your browser does not support HTML5 video.-->
+                <!--</video>-->
             </div>
         </div>
     </div>
