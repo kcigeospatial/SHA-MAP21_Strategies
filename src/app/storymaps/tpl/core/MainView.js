@@ -629,8 +629,13 @@ define(["lib-build/css!./MainView",
 			
 			this.onHashChange = function()
 			{
+				debugger;
 				var view = location.hash ? location.hash.substring(1) : "";
-				app.ui.mobileView.setView(view);
+
+				if(view.indexOf('tab') > -1){
+					var index = view.substring(3);
+					navigateStoryToIndex(parseInt(index))
+				}
 			};
 			
 			//

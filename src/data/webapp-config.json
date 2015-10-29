@@ -109,7 +109,7 @@
         "sections": [
           {
             "title": "<p><strong><span style=\"font-size:36px\">Strategies</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "With the passage of the Moving Ahead for Progress in the 21st Century (MAP-21) in 2012, Congress shifted transportation funding from a programmatic approach where state received funding for specific eligible activities to a performance based approach.  This performance based approach was aimed at allowing states to set their individual targets and develop strategies and priorities individually that will collectively make progress toward achieving the national goals. In the following tabs you will see how SHA is attempting to develop strategies that will help us to achieve a safe and high performing system.",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -126,7 +126,7 @@
           },
           {
             "title": "<p><strong><span style=\"font-size:36px\">Safety - Plans</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "The Maryland Department of Transportation, through the Maryland Highway Safety Office and the State Highway Administration (SHA), is committed to the effective and efficient administration of a comprehensive, statewide traffic safety program utilizing State and federal funds to reduce traffic crashes and the resulting injury and death on Maryland's roads. Maryland safety plans and programs consider safety concerns that may center on people, vehicles, and roadways, in a performance-based, data-driven process. Maryland joined the American Association of State Highway Transportation Officials (AASHTO), other national organizations, and several other states in adopting a Toward Zero Deaths fatality goal to reduce motor vehicle-related fatalities and injuries by one-half by 2030. To monitor progress toward this goal, Maryland approved interim fatality targets for the life of the Strategic Highway Safety Plan, representing an average annual decrease of 3.1 percent. Each emphasis area also adopted measurable fatality and injury objectives in line with these goals.",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -143,7 +143,7 @@
           },
           {
             "title": "<p><strong><span style=\"font-size:36px\">Safety - Programs</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "The Maryland State Highway Administration (SHA) works withentities such as the Maryland Highway Safety Office and the Motor Vehicle Administration; the Maryland State Police; the Federal government; and educational institutions - state colleges, universities, and schools - to implement programs that will help to achieve zero deaths on Maryland's roads.  Maryland's highway safety programs, as documented in the Maryland Highway Safety Improvement Program; the Maryland Highway Safety Plan; and the Comprehensive Transportation Plan, attempts to protect all roadway users from potential hazards at intersections, highway-rail grade crossings, work zones, and in highway safety corridors. SHA documents its progress in reducing highway fatalities and serious injuries in the SHA Business Plan and the Attainment Report.",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -160,7 +160,7 @@
           },
           {
             "title": "<p><strong><span style=\"font-size:36px\">Safety - Initiatives</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "The Maryland State Highway Administration (SHA) strives to address emerging safety issues, while maintaining efforts to reduce crash-related fatalities and serious injuries in other environments.  Low cost solutions can often be implemented to address traffic safety issues. Still, SHA may implement a more wide-spread improvement initiative if patterns emerge that can be dealt with systematically.",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -278,8 +278,8 @@
             }
           },
           {
-            "title": "<p><strong><span style=\"font-size:36px\">Environmental Stewardship - Plans</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "title": "<p><strong><span style=\"font-size:36px\">Environmental Stewardship</span></strong></p>\n",
+            "content": "",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -287,41 +287,7 @@
             "media": {
               "type": "webpage",
               "webpage": {
-                "url": "static/safety/asset-plans.html",
-                "type": "webpage",
-                "display": "stretch",
-                "unload": true
-              }
-            }
-          },
-          {
-            "title": "<p><strong><span style=\"font-size:36px\">Environmental Stewardship - Programs</span></strong></p>\n",
-            "content": "Content coming soon.",
-			"contentActions": [],
-            "creaDate": 1437417332947,
-            "pubDate": 1437417332947,
-            "status": "PUBLISHED",
-            "media": {
-              "type": "webpage",
-              "webpage": {
-                "url": "static/safety/asset-programs.html",
-                "type": "webpage",
-                "display": "stretch",
-                "unload": true
-              }
-            }
-          },
-          {
-            "title": "<p><strong><span style=\"font-size:36px\">Environmental Stewardship - Initiatives</span></strong></p>\n",
-            "content": "Content coming soon.",
-			"contentActions": [],
-            "creaDate": 1437417332947,
-            "pubDate": 1437417332947,
-            "status": "PUBLISHED",
-            "media": {
-              "type": "webpage",
-              "webpage": {
-                "url": "static/safety/asset-initiatives.html",
+                "url": "static/safety/env-stew.html",
                 "type": "webpage",
                 "display": "stretch",
                 "unload": true
@@ -330,7 +296,7 @@
           },
           {
             "title": "<p><strong><span style=\"font-size:36px\">Project Delivery - Plans</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "Planning and Environmental Linkage (PEL) <br/> Programmatic Agreements",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -338,7 +304,7 @@
             "media": {
               "type": "webpage",
               "webpage": {
-                "url": "static/safety/asset-plans.html",
+                "url": "static/safety/project-plans.html",
                 "type": "webpage",
                 "display": "stretch",
                 "unload": true
@@ -347,7 +313,7 @@
           },
           {
             "title": "<p><strong><span style=\"font-size:36px\">Project Delivery - Programs</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "Design-Build <br/> Environmental Review Process and Accelerating Project Delivery <br/> Categorical Exclusions in Declared Emergencies <br/> Projects within current Rights-of-Way <br/> Projects receiving minimal Federal assistance <br/> Construction Management At Risk (CMAR)",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -355,7 +321,7 @@
             "media": {
               "type": "webpage",
               "webpage": {
-                "url": "static/safety/asset-programs.html",
+                "url": "static/safety/project-programs.html",
                 "type": "webpage",
                 "display": "stretch",
                 "unload": true
@@ -364,7 +330,7 @@
           },
           {
             "title": "<p><strong><span style=\"font-size:36px\">Project Delivery - Initiatives</span></strong></p>\n",
-            "content": "Content coming soon.",
+            "content": "Environmental Procedures Initiative (Sec. 1321) <br/> Review of State Environmental Reviews and Approvals (Sec. 1322) <br/> Review of Federal Project and Program Delivery (Sec. 1323) <br/> Reports for Issue Resolution (Sec. 1306), review of CE current use (Sec. 1318) and for two new CEs (Sec. 1316 and Sec. 1317)",
 			"contentActions": [],
             "creaDate": 1437417332947,
             "pubDate": 1437417332947,
@@ -372,7 +338,7 @@
             "media": {
               "type": "webpage",
               "webpage": {
-                "url": "static/safety/asset-initiatives.html",
+                "url": "static/safety/project-initiatives.html",
                 "type": "webpage",
                 "display": "stretch",
                 "unload": true
