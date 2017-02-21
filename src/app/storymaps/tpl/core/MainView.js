@@ -629,12 +629,12 @@ define(["lib-build/css!./MainView",
 			
 			this.onHashChange = function()
 			{
-				debugger;
+				//debugger;
 				var view = location.hash ? location.hash.substring(1) : "";
 
 				if(view.indexOf('tab') > -1){
 					var index = view.substring(3);
-					navigateStoryToIndex(parseInt(index))
+					navigateStoryToIndex(parseInt(index, 10));
 				}
 			};
 			
